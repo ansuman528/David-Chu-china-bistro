@@ -2,7 +2,7 @@
   var names=["Yaakov","John","Jen","jason","paul","frank","Larry","Paula","Laura","Jim"];
   for(var i in names){
     var firstletter=((names[i]).charAt(0)).toLowerCase();
-    if(firstletter=="J"){
+    if(firstletter=="j"){
       window.byeSpeaker.speak(names[i]);
     }
     else{
